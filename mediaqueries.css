@@ -6,22 +6,18 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    display: flex;
-  }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+  }
+  #hamburger-nav {
+    display: flex;
   }
   #profile,
   .section-container {
@@ -101,3 +97,4 @@
     text-align: justify;
   }
 }
+
